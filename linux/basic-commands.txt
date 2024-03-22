@@ -1,0 +1,2 @@
+ls - list directories and files
+cd - change directoory
