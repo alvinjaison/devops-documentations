@@ -1,0 +1,24 @@
+# Launch your instance
+    aws ec2 run-instances --image-id ami-xxxxxxxx --count 1 --instance-type t2.micro --key-name MyKeyPair 
+      /--security-group-ids sg-903004f8 --subnet-id subnet-6e7f829e
+
+# Add a tag to your instance
+    aws ec2 create-tags --resources i-5203422c --tags Key=Name,Value=MyInstance
+
+# List your instances
+    aws ec2 describe-instances
+
+# Terminate your instance
+    aws ec2 terminate-instances --instance-ids i-5203422c
+
+#  Create a key pair
+    aws ec2 create-key-pair --key-name MyKeyPair --query 'KeyMaterial' --output text > MyKeyPair.pem
+
+# To set the permissions of your private key file 
+    chmod 400 MyKeyPair.pem
+
+#  Display your key pair
+    aws ec2 describe-key-pairs --key-name MyKeyPair
+
+#   Delete your Key pair
+    aws ec2 delete-key-pair --key-name MyKeyPair        
