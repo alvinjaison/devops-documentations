@@ -22,10 +22,10 @@ step 11 : copy the image name as it is and replace it in code
 step 12: save  or command + s
 step 13: check the status called "git status "
 step 14 : check the difference between previoues and present changes made 
-step 15 : now add to the local directory by using command git add html file
+step 15 : now add it to local directory by using command git add html file
 step 16 : git commit -m "wwrite a message wt changed you made "
 step 17: open html file in the desktop and check the changes we made 
-step 18: if changes are made then add this to remote directory 
+step 18: if changes are made then add this to remote directoryg
           NOTE : if not check the error and change according to that 
 step 19 : adding the local content to remote by using the command called git push
 step 20 : refresh the local html file and remote code file in the github 
