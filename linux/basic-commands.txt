@@ -26,7 +26,7 @@ uptime - Displays how long the system has been running.
 hostname - Displays the hostname of the system
 ifconfig -  Displays network interface configuration.
 top - Display system processes.
-kill: Terminate processes.
+kill: Terminate processes.gits
 
  
 
