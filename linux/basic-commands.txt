@@ -25,6 +25,8 @@ find directory -name "file_pattern" - Searches for files and directories.
 uptime - Displays how long the system has been running.
 hostname - Displays the hostname of the system
 ifconfig -  Displays network interface configuration.
+top - Display system processes.
+
  
 
 
