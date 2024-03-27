@@ -1,3 +1,42 @@
 ls - list directories and files
 cd - change directoory
 pwd - present working directory
+mkdir - to create directoory 
+mv - move to file 
+rmdir - remove anuy directoory
+cd .. - step back to pwd
+cd . - come back to user
+code . - move into the coure soure
+cat - dispalay the content of the files
+mv oldfile name newfile name - rename the file 
+cp - copy the content
+grep pattern file_name - search for the pattern file 
+echo - prints to text to the terminal
+chmod permissions file_name - Changes permissions of files or directories
+chown owner:group file_name - Changes the owner of files or directories
+sudo command_name - Allows users to run programs with the security privileges of another user
+sudo apt-get install package_name - Package manager for Debian-based systems
+man command_name - Displays the manual pages for commands.
+touch file_name - to create an empty file
+head file_name - to dispalay the first few lines 
+tail file_name - to display the last few lines
+wc file_name - Displays the word count, line count, and byte count of a file.
+find directory -name "file_pattern" - Searches for files and directories.
+uptime - Displays how long the system has been running.
+hostname - Displays the hostname of the system
+ifconfig -  Displays network interface configuration.
+top - Display system processes.
+kill: Terminate processes.gits
+
+ 
+
+
+
+
+
+
+
+
+
+
+
